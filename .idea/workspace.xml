@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f227db42-9e19-44d7-8438-473fc2bb38a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern while loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern while loop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.loops.executor": "Run",
+    "Python.pattern while loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
