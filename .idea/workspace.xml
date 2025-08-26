@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f227db42-9e19-44d7-8438-473fc2bb38a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pattern while loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern while loop.py" afterDir="false" />
     </list>
@@ -27,6 +28,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="31XRB6tXqgi1HF7T3fQMGsyFVgS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.function.executor": "Run",
     "Python.loops.executor": "Run",
     "Python.pattern while loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",

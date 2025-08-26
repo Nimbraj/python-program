@@ -57,9 +57,9 @@
 # # hii pattern
 # user=int(input("Enter the number--> "))
 # for i in range(user):
-#     for j in range(user-i-1):
+#     for k in range(user-i-1):
 #         print(" ",end=" ")
-#     for j in range(2*i+1):
+#     for j in range(i):
 #         print("*",end=" ")
 #
 #     print()
@@ -69,34 +69,35 @@
 # for i in  range(user,0,-1):
 #
 #     for j in range(user-i):
-#         print("  ",end=" ")
-#     for j in range(2*i-1):
-#         print("*",end=" ")
+#         print(" ",end=" ")
+#     for j in range(i):
+#         print(" * ",end=" ")
 #
 #     print()
-
+#
 
 #
 # ### diamond pattern
-## Diamond Pattern
-user = int(input("Enter the number: "))
+# Diamond Pattern
+# Diamond Pattern
+# user = int(input("Enter the number: "))
 
 # Upper pyramid
-for i in range(user):
-    # spaces
-    for j in range(user - i - 1):
-        print(" ", end=" ")
-    # stars
-    for j in range(2 * i + 1):
-        print("*", end=" ")
-    print()
-
-# Lower pyramid
-for i in range(user - 2, -1, -1):   # 👈 start from user-2 to avoid repetition
-    # spaces
-    for j in range(user - i - 1):
-        print(" ", end=" ")
-    # stars
-    for j in range(2 * i + 1):
-        print("*", end=" ")
-    print()
+# for i in range(user):
+#     # spaces
+#     for j in range(user - i - 1):
+#         print(" ", end=" ")
+#     # stars
+#     for j in range(2 * i + 1):
+#         print("*", end=" ")
+#     print()
+#
+# # Lower pyramid
+# for i in range(user - 2, -1, -1):
+#     # spaces
+#     for j in range(user - i - 1):
+#         print(" ", end=" ")
+#     # stars
+#     for j in range(2 * i + 1):
+#         print("*", end=" ")
+#     print()
