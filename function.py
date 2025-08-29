@@ -255,13 +255,13 @@
 # print(Arms(5))
 # print(Arms(120))
 
-# find Gcd (greatest common Divisor)
-def gcd(a, b):
-    if b == 0:
-        return a
-    return gcd(b, a % b)
-def lcm(a, b):
-    return a * b // gcd(a, b)
-print(lcm(2, 3))
-print(gcd(2, 3))
+# # find Gcd (greatest common Divisor)
+# def gcd(a, b):
+#     if b == 0:
+#         return a
+#     return gcd(b, a % b)
+# def lcm(a, b):
+#     return a * b // gcd(a, b)
+# print(lcm(2, 3))
+# print(gcd(2, 3))
 
