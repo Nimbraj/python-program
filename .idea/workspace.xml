@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f227db42-9e19-44d7-8438-473fc2bb38a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/File Handling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joy.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exception Handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instance_Method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Instance_Method.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -41,12 +46,18 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Constructor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Deque.executor&quot;: &quot;Run&quot;,
     &quot;Python.File Handling.executor&quot;: &quot;Run&quot;,
     &quot;Python.Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Instance_Method.executor&quot;: &quot;Debug&quot;,
     &quot;Python.Oops.executor&quot;: &quot;Run&quot;,
     &quot;Python.function.executor&quot;: &quot;Run&quot;,
     &quot;Python.loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.oops method.executor&quot;: &quot;Run&quot;,
     &quot;Python.pattern while loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pickle.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
