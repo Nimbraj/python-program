@@ -206,3 +206,91 @@ print("descending :",des)
 #     return rev
 # num= int(input("Enter a number:  "))
 # print("Output : ", reverse_replace(num))
+
+
+####################################
+# Create a Python program using inheritance in the banking domain with the following requirements:
+#
+# Create a base class BankAccount with:
+#
+# Attributes: account_number, holder_name, balance.
+#
+# Methods:
+#
+# deposit(amount) → Add money to the account.
+#
+# withdraw(amount) → Deduct money if sufficient balance exists, otherwise display "Insufficient balance".
+#
+# display() → Display account details.
+#
+# Create a derived class SavingsAccount that inherits from BankAccount with:
+#
+# Additional attribute: interest_rate.
+#
+# Method: add_interest() → Calculate and add interest to balance.
+#
+# Create another derived class CurrentAccount that inherits from BankAccount with:
+#
+# Additional attribute: overdraft_limit.
+#
+# Override the withdraw() method → Allow withdrawals even if balance is less than the amount, but only up to the overdraft limit. If exceeded, display "Overdraft limit exceeded!".
+#
+# Write a program to demonstrate the functionality by:
+#
+# Creating a SavingsAccount object, depositing money, adding interest, and displaying details.
+#
+# Creating a CurrentAccount object, performing withdrawals within and beyond the overdraft limit, and displaying details.
+# class BankAccount:
+#     def __init__(self,account_number,holder_name,balance=0):
+#         self.acc_number=account_number
+#         self.ho_name=holder_name
+#         self.balance= balance
+#     def deposit(self,amount):
+#         self.balance +=amount
+#         print(f"Deposited{amount}. new balance :{self.balance}")
+#     def withdraw(self,amount):
+#         if amount<=self.balance:
+#             self.balance -= amount
+#             print(f"withdraw {amount}.Remaining balance:{self.balance}")
+#
+#         else:
+#             print(f"Account NO :{self.acc_number} Holder: ",{self.ho_name}  )
+#     def  Display(self):
+#         print(f"Account no{self.acc_number}"
+#               f" and hoder name{self.ho_name}and balance"
+#               f" this Account{self.balance}")
+# class SavnigAccount(BankAccount):
+#     def __init__(self,account_number,Hoder_name,balance=0,interest_rate=5):
+#         super().__init__(account_number,Hoder_name,balance)
+#         self.interest_rate=interest_rate
+#     def add_interest(self):
+#         interst=(self.balance*self.interest_rate/100)
+#         self.balance +=interst
+#         print(f"interest{interst}add new balance :{self.balance}")
+# class CurrentAccount(BankAccount):
+#     def __init__(self,account_number, hoder_name,balance=0,overdraft_Limit=50):
+#         super().__init__(account_number,hoder_name,balance)
+#         self.limit=overdraft_Limit
+#     def withdraw(self,amount):
+#         if amount<=self.balance+self.limit:
+#             self.balance -= amount
+#             print(f"withdraw{amount}.Remaining balance:{self.balance}")
+#         else:
+#             print("Overdraft limit exceeded !")
+# b=BankAccount("sbi124342","Mayur",100000)
+# b.deposit(50000)
+# b.withdraw(25000)
+
+
+# s=SavnigAccount("sbi123322","Amit",100000,8)
+# s.Display()
+# s.deposit(50000)
+# s.add_interest()
+
+# C=CurrentAccount("HFD4323432","mayur",100000,30000)
+# C.deposit(50000)
+# C.withdraw(20000)
+# C.Display()
+
+
+

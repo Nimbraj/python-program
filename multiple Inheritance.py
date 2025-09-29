@@ -68,7 +68,6 @@
 # and other object and also object will be
 
 
-
 # methods
 # In simple words a function inside a class is called as methods
 
@@ -84,14 +83,12 @@
 #      feb 20th 1991
 
 
-
 # #   where we can use python language
 # for developing desktop applications
 # for developing web application
 # for developing games
 # for machine learning
 # for developing Artificial intelligence application
-
 
 
 # features of python
@@ -123,14 +120,6 @@
 # b=1
 # print("fibona")
 
-
-
-#
-#
-#
-#
-#
-#
 # class customer:
 #     def Name(self,last_name,first_name):
 #         print(f" this coustomer first name is{last_name}and last name is are {first_name}")
@@ -148,14 +137,116 @@
 # e.Name("Avinash","tadge")
 
 
+#
+# class A:
+#     def spam(self):
+#         print("first class")
+# class B(A):
+#     def demo(self):
+#         print("Second Class")
+# class C(A):
+#     def display(self):
+#         print("third class")
+# class D(B,C):
+#     def Hi(self):
+#         print("4th class")
+# a=D()
+# a.Hi()
+# a.spam()
+# a.display()
+# a.demo()
 
 
+# class A:
+#     def spam(self,x):
+#         print("First class",x)
+# class B(A):
+#     def demo(self,y):
+#         print("second class",y)
+# class C(A):
+#     def Dispaly(self,z):
+#         print("Third class",z)
+# class D (B,C):
+#     def Hi(self,d):
+#         print("4th class")
+# a=D()
+# a.Hi(100)
+# a.demo(232)
+# a.spam(543)
+# a.Dispaly(1232)
 
-
-
-
-
-
-
-
-
+# class Parent:
+#     def __init__(self):
+#         print("its a constructor class")
+# class Dad(Parent):
+#     def __init__(self):
+#        super().__init__()
+#        print("Dad class")
+# class MoM(Parent):
+#     def __init__(self):
+#         super().__init__()
+#         print("mom class")
+#
+# class child(Dad,MoM):
+#     def __init__(self):
+#         super().__init__()
+#         print("Child class")
+# c=child()
+#
+# class Bank:
+#     def __init__(self, Account_name, Bank_name):
+#         self.A = Account_name
+#         self.B = Bank_name
+#
+#     def Data(self):
+#         print(f"Account holder name is{self.A}and my bank name is{self.B}")
+#
+#
+# class ATM(Bank):
+#     def __init__(self, bal, pin):
+#         super().__init__("iCIC123432","pfc123454")
+#         self.b = bal
+#         self.p = pin
+#
+#
+#     def Data(self):
+#         super().Data()
+#         print(f"this Account balance {self.b}and pin code this branch{self.p}")
+#
+#
+# class ICIC(Bank):
+#     def __init__(self, acc_num, ifcs_code):
+#         super().__init__("Mayur Saluke","HDFC")
+#         self.num = acc_num
+#         self.code = ifcs_code
+#
+#     def Data(self):
+#         super().Data()
+#         print(f"this preson account NUmber is{self.num}and ifsc{self.code}")
+# class Customer(ATM,ICIC):
+#     def __init__(self,loc,branch):
+#         super().__init__(1233,413205)
+#         self.br=branch
+#         self.l=loc
+#     def Data(self):
+#         super().Data()
+#         print(f"the branch in{self.br}and location in {self.l} ")
+# C=Customer("pune","ICIC")
+# C.Data()
+#
+# class Student:
+#     def __init__(self,name,score):
+#         self.name=name
+#         self.score=score
+#     def student_Data(self):
+#         print(f"Student name is {self.name}and total score {self.score}")
+# class Pyspider:
+#     def __init__(self,free, cource_name):
+#         s=Student("Mayur Kachru saluke","*")
+#         s.student_Data()
+#         self.f=free
+#         self.c=cource_name
+#     def information(self):
+#         print(f"total free is {self.f}and cource_name is {self.c}")
+# p=Pyspider(11111,"DA/ML/AL")
+# p.information()

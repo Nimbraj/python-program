@@ -3,7 +3,7 @@
 # /s space    /S not BSPACE
 # /w all charters /W not all chatracters
 
-import re
+# import re
 
 # x="asdsdfgnmfd"
 # y=re.findall('[asb]',x)
@@ -35,35 +35,35 @@ e="qwertyuioplkjhgfdsazxcvbnmasd7654234567sdds6543sdfg"
 # EXPRESSION
 # EXAMPLE
 
-# 1.matches any number between 0-9
-import  re
-
-a = "The cost of the book is Rs.100"
-b=re.findall("[0-9]",a)
-# 2.matches only lower case letter and upper case letter
-b = "hello HOW ARE YOU"
-B=re.findall("A-Z",b)
-
-# 3.write a program to count the number of white space in a given string
-c = "HELLO world welcome to python Hi how are you. Hi how are you"
-a= re.findall(" ",c)
-print(len(a))
-
-# # 4.sum all the numbers in the below string
-word = "PYTHON12nREG567exp2"
-l=re.findall("[0-9]",word)
-print(l)
+# # 1.matches any number between 0-9
+# import  re
 #
-# # 5.matches everything apart from numbers between 0-9
-a = "The cost of the book is Rs.100"
-l=re.findall("[0-9]",a)
-print(l)
+# a = "The cost of the book is Rs.100"
+# b=re.findall("[0-9]",a)
+# # 2.matches only lower case letter and upper case letter
+# b = "hello HOW ARE YOU"
+# B=re.findall("A-Z",b)
 #
+# # 3.write a program to count the number of white space in a given string
+# c = "HELLO world welcome to python Hi how are you. Hi how are you"
+# a= re.findall(" ",c)
+# print(len(a))
 #
-# # 6.matches everything apart from "a","b","c","d"
-b = "abcdefghijklmnop"
-z=re.findall("[abcd]",b)
-print(z)
+# # # 4.sum all the numbers in the below string
+# word = "PYTHON12nREG567exp2"
+# l=re.findall("[0-9]",word)
+# print(l)
+# #
+# # # 5.matches everything apart from numbers between 0-9
+# a = "The cost of the book is Rs.100"
+# l=re.findall("[0-9]",a)
+# print(l)
+# #
+# #
+# # # 6.matches everything apart from "a","b","c","d"
+# b = "abcdefghijklmnop"
+# z=re.findall("[abcd]",b)
+# print(z)
 # # 7.matches only those characters accepts digit# word = "@hello12world34welcome!123"
 
 #
@@ -123,3 +123,25 @@ print(z)
 #
 # s = "hello 123 mic testing 123 123"
 
+#
+# ext="improtant date:25-12-2025,2025/09/11,01,january2023"
+# import re
+# # match=re.findall(r"\d{2}-\d{2}-\d{4}|\d{4}\d{2}-\d{2}|\d{2}-\s[a-z]-\d{4}",ext)
+# y=re.findall(r'\\+[0-9]+\\d+\\w',ext)
+# print(y)
+# # print(match)
+
+
+
+# # import re
+# #
+# # a="Apple123@gmail.com"
+# # w=re.findall("[A-Za-z0-9@]+\\.[a-zA-z]+",a)
+# # print(w)
+#
+#
+# s="helloworld welcome to python"
+# r= re.sub(" ","\n",s)
+# print(r)
+#
+# #============================================================================================================================================================================================
