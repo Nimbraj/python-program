@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f227db42-9e19-44d7-8438-473fc2bb38a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Encapsulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Has-A-Relationship.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multithreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regular expression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABSTRACTION.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABSTRACTION.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception Handing program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exception Handing program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File Handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/File Handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instance_Method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Instance_Method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interview.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple Inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiple Inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +55,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ABSTRACTION.executor&quot;: &quot;Run&quot;,
     &quot;Python.Constructor.executor&quot;: &quot;Run&quot;,
     &quot;Python.Deque.executor&quot;: &quot;Run&quot;,
     &quot;Python.Encapsulation.executor&quot;: &quot;Run&quot;,
@@ -55,13 +65,19 @@
     &quot;Python.Generator.executor&quot;: &quot;Run&quot;,
     &quot;Python.Has-A-Relationship.executor&quot;: &quot;Run&quot;,
     &quot;Python.Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Instance_Method.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Instance_Method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multithreading.executor&quot;: &quot;Run&quot;,
     &quot;Python.Oops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pands.executor&quot;: &quot;Run&quot;,
     &quot;Python.Regular expression.executor&quot;: &quot;Run&quot;,
     &quot;Python.decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filter.executor&quot;: &quot;Run&quot;,
     &quot;Python.function.executor&quot;: &quot;Run&quot;,
     &quot;Python.interview.executor&quot;: &quot;Run&quot;,
     &quot;Python.loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.map.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module.executor&quot;: &quot;Run&quot;,
     &quot;Python.multilevel inheritance.executor&quot;: &quot;Run&quot;,
     &quot;Python.multiple Inheritance.executor&quot;: &quot;Run&quot;,
     &quot;Python.oops method.executor&quot;: &quot;Run&quot;,

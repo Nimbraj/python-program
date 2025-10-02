@@ -1,5 +1,14 @@
 # # function python
-# # wap to perform addition and subraction if "a"
+#user defined function
+# pre-defined
+# these are the function which are already presen in S/W and will utilize the as pre_defind function
+#we can't modify the pre-defined function
+# print(),input(),len(),type(),isinstance(),int(),
+# list(),
+# user defined function
+# these are the function which are defined /developed by the user based on customer requirement specification is called auser dwfined function
+#     sefto perform addition an
+# d subraction if "a"
 # # is greater than b return sum else return difference
 # def Operation(a,b):
 #     if a>b:
@@ -253,8 +262,8 @@
 #     total=sum(int(d)**power for d in str(n))
 #     return total==n
 # print(Arms(5))
-# print(Arms(120))
-
+# print(Arms(10))
+2
 # # find Gcd (greatest common Divisor)
 # def gcd(a, b):
 #     if b == 0:

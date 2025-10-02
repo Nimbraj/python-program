@@ -116,3 +116,13 @@
 # b.car_details(1234,'red',"Bmwx")
 # BMW.car_details(b,3423,"red","Bmwx2")
 
+
+#
+# class BMW:
+#     def car_details(self,car_price,car_color,*args):
+#         print(f"My car price is {car_price} nad my car color{car_color}"
+#               f"and extra information of the car and in car{args} ")
+# b=BMW()
+# b.car_details(100,"blue color","BMWX2")
+# b.car_details(2000,"read","the any methods object address an be first argument this methods called as instance methods"
+#                           "the point is alway object address to Access to type of object can be two type of first is object and second is class name the class used to paranteses object defined ")

@@ -401,13 +401,13 @@ import time
 #         a=int(input(f"Enter the number:--"))
 #         fun(*args)
 #     return inner
-@name
-@number
-@register
-def seep():
-    time.sleep(5)
-    print("operations in dones")
-seep()
+# @name
+# @number
+# @register
+# def seep():
+#     time.sleep(5)
+#     print("operations in dones")
+# seep()
 # 17.WADF TO DELAY FOR 3 SECONDS AND DISPLAY THE NAME, DELAY FOR 3 SECONDS AND DISPLAY EMAIL ADDRESS ,
 #  DELAY FOR 3 SECONDS AND DISPLAY PHONE NUMBER
 # form time import time()
@@ -501,19 +501,144 @@ seep()
 
 
 
+#
+# def outer(fun):  #####-------------------memory address will be created
+#     def inner(*args,**kwargs):
+#         print("this is decorator function in python")
+#         fun(*args,**kwargs)         fun== div
+#     return inner
+# @outer                                #------div=outer (div)
+# def main_f(a,b):
+#     print(f"addtion of two operators{a+b}")
+# main_f(10,20)
+#
 
 
 
+# # Delay decorators
+# from time import sleep
+# def outer (fun):
+#     def inner(*args,**Kwargs):
+#         print("the time module using Delay decorators ")
+#         start=time.time()
+#         sleep(4)
+#         fun(*args,**Kwargs)
+#         end=time.time()
+#         print(end-start)
+#     return inner
+# @outer
+# def add(a,b):
+#     print(f"addition of two numbers {a+b}")
+#
+# add(12,34)
+#
+# @outer
+# def sub(a,b):
+#     print(f"subtraction of two numbers {a-b}")
+# sub(10,5)
+#
+#
+# from time import sleep
+# print("Employee Details")
+# def outer(fun):
+#     def inner(*args,**Kwags):
+#         print(f"my function name is {fun.__name__} ")
+#
+#         sleep(3)
+#         fun(*args,**Kwags)
+#     return inner
+# @outer
+# def display_name():
+#     res=input("enter the employee name--> ")
+#     print(f"The employee name is--{res}")
+# @outer
+# def display_email():
+#     res1=input("the Enter your email---> ")
+#     print(f"The employee name is--{res1}")
+# @outer
+# def display_number():
+#     res2=input("the Enter your number---> ")
+#     print(f"the employee number is--{res2}")
+# display_name()
+# display_email()
+# display_number()
 
+# from time import sleep
+# def outer_most(x):
+#     def outer(fun):
+#         def inner(*args,**kwargs):
+#             start=time.time()
+#             sleep(3)
+#             print(f"this is function name---> {fun.__name__}")
+#             print(x)
+#             end=time.time()
+#             fun(*args,**kwargs)
+#             print(end-start)
+#         return inner
+#     return outer
+# @outer_most("good morning")
+# def spam():
+#     print("this methods is spam")
+# @outer_most("good afternoon")
+# def check():
+#     print("the are check methods")
+# @outer_most("good evening")
+# def mayur():
+#     print("one methods")
+# spam()
+# check()
+# mayur()
+#
 
+#
+#
+# def Bank_Acc(message):
+#     def outer(func):
+#         def inner(*args,**kwargs):
+#             # bal=int(input("Enter the amount--> "))
+#             print(f'[BANK LOG] {message}')
+#             func(*args,**kwargs)
+#             print('-'*30)
+#         return inner
+#     return outer
+#
+# @Bank_Acc('opening a new account')
+# def open_account(name,balance):
+#     print(f'Account open for name {'shane watson'}'
+#           f' with balance is rs {100000}')
+#     return balance
+# @Bank_Acc('Depositing Money')
+# def deposit(name,amount,balance):
+#     new_bal=amount+balance
+#     print(f'{amount} deposited successfully'
+#           f' in account name is {name}\n'
+#           f'update balances{new_bal}')
+#     return new_bal
+# @Bank_Acc('withdrawl money')
+# def withdraw(name , amount,bal):
+#     print(f'the {amount-bal} withdraw successfully in account name in {name}')
+#
+# open_account('shane watson',100000)
+# deposit('shane watson',25000,200)
+# withdraw('shane watson',30000,200)
 
-
-
-
-
-
-
-
-
-
-
+#
+# from time import sleep
+# def outer_most(x):
+#     def outer(fun):
+#         def inner(*args,**kwargs):
+#             sleep(3)
+#             print(x)
+#             print(f"this is function name---->{fun.__name__}")
+#             fun(*args,**kwargs)
+#         return inner
+#     return outer
+# @outer_most ("this a first function")
+# def main():
+#     print("this is a main function")
+# @outer_most ("this is a second function")
+# def spam():
+#     print("this function is spam messages")
+# main()
+# spam()
+#

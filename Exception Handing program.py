@@ -1,10 +1,7 @@
 # try block
 from Inheritance import x
-
 # except block
-
 # else block
-
 # finally block --->  keywords it will be not matter any error
 #
 
@@ -97,14 +94,34 @@ from Inheritance import x
 # except ValueError:
 #       print("value error handling")
 
+# import os
+# import csv
+# print(os.getcwd())
+# os.chdir(r"C:\Users\Admin\OneDrive\New folder")
+# print(os.getcwd())
+# try:
+#     with open("Red.csv","w")as file:
+#         new=csv.writer(file)
+#         new.writerow("ABC",100)
+# except:
+#     print("PermissionError: [Errno 13] Permission denied: 'Red.csv")
+#
+#
+# os.popen("Red.csv")
 
-
-
-
-
-
-
-
+#
+# k={1:2,67:89,100:"hii"}
+# try:
+#     print(k.append())
+# except AttributeError:
+#     print("AttributeError handling")
+# except KeyError:
+#     print("this is a Key value  error")
+# except TypeError:
+#     print("Type error handling")
+# except NameError:
+#     print("Name error handling")
+#
 
 
 

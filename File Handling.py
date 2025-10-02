@@ -150,3 +150,75 @@
 
 
 ##  How to create empty class
+
+
+import os
+
+
+print(os.getcwd())
+os.chdir(r"C:\Users\Admin\OneDrive\New folder")
+print(os.getcwd())
+# os.mkdir(r"python")
+print(os.getcwd())
+
+# # step---1
+# file=open("Evening.text","w")
+# os.popen("Evening.text")
+
+# w----write/write mode
+# write tow type of mode
+# 1.write()--->here ew can add the data(only single line)+++++++++
+#2.writelines()---->here we can add the data(multiple line)++++++
+
+
+# Syntax
+#  new_varible_name=open("file Name.extentions""mode")
+# print(new_var_name.write())
+# print(new_var_name.writelines(["iterable","iterable",iterable.....n]))
+
+
+# write_mode example
+# f=open("evening.text",'w')
+# print(f.write("the python fist languange is used faster tan java"))
+# print(f.writelines("the wite mode used to wite\n a file write is single line used an d givve to updated one the\n ate drow back of write mode on a python language"))
+# os.popen("evening.text")
+
+
+# # a------>append/a make_identity_dict()
+# # 1.write()--here ew can add data(single line)
+# # 2.writelines()---> here we can add data (multiple line )
+# f=open("append.text","a")
+# print(f.write("the python file handling append mode is used to adding data"))
+# print(f.writelines("the is moust of used to\n os opreating system is \nfirst getcwd,chdir,mrkdri,popen,remove,rename, "))
+# os.popen("append.text")
+
+
+# read/r_mode()
+# syntax
+ ######### new_variable_name=open("file.extention","r")
+ # print(new_variable_name.read())
+ # print(new_varialbe_name.readlines())
+ # print(nwe_variable_name.readline())
+ # print(new_variable_name.read(n))
+# with open("with.text",'a')as f:
+#     print(f.writelines("the add file function can be used the language is of system used deffrent is are as with keywords used "))
+#     os.popen("with.text")
+#     print(f.readlines())
+
+
+import csv
+# wiriting into csv file
+
+# *write()
+# *Dictwriter
+# with open("Red.csv","w",newline='')as file:
+#     data=csv.writer(file)
+
+#     data.writerow(["readpan",5000])
+#     data.writerow(["Blue_pen",1000])
+#     data.writerows([["Red",1000],["Pink",2000],["yellow",300]])
+# os.popen("Red.csv")
+
+
+
+
