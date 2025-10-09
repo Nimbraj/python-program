@@ -57,30 +57,60 @@
 # print(factorail(5))
 
 
-# def reverse(num):
-#     rev=0
-#     chek=num
-#     for i in num:
-#         digit=num %10
-#         rev=rev*digit+10
-#         digit//=10
-#     if num == chek:
-#         print(f"the are {num}")
-#     else:
-#         print(f"not are {num}")
-# print(reverse(12))
-#
+
 # def factorial(num):
 #     return 1 if num==0 else num*factorial(num-1)
 # print(factorial(5))
-def prime(num):
-   count=0
-   for i in range(1,num):
-       if num%i==1:
-           count+=1
+# def prime(num):
+#    count=0
+#    for i in range(1,num):
+#        if num%i==1:
+#            count+=1
+#
+#    if count==2:
+#        print(f"the is number is prime {num}")
+#    else:
+#      print(f"this number is not prime{num}")
+# prime(12)
 
-   if count==2:
-       print(f"the is number is prime {num}")
-   else:
-     print(f"this number is not prime{num}")
-prime(12)
+
+# def reverse(num):
+#     rev= 0
+#     while num >0:
+#         digit= num%10
+#         rev=rev*10+digit
+#         num//=10
+#     return rev
+# print(reverse(121234))
+
+
+# def replace_value(num):
+#     result=0
+#     place=1
+#     if num==0:
+#         return 5
+#     while num >0:
+#         digit=num%10
+#         if digit==0:
+#             digit=5
+#         result =result +digit*place
+#         num //=10
+#         place*=10
+#     return result
+# n=int(input("Enter the number---> "))
+# print(replace_value(n))
+
+# def pal (num):
+#     a=num
+#     rev=0
+#     i=0
+#     while i <= num:
+#         digit = num%10
+#         rev=rev*digit+10
+#         num //=10
+#         i+=1
+#     if num == a:
+#         print('pal')
+#     else:
+#         print('not pal')
+# pal(1231)

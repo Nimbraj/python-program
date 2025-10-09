@@ -1,4 +1,12 @@
-## os MODUALE
+##
+# # drawback of file_handling --> we can perform particulat file
+# # data present in unstructured format
+# # security
+# # storage issue
+# # only local system we are using
+#
+#
+# os MODUALE
 ## TO Perform file operation/handling we user a methods in OS
 # Module that is
 # 1.getcwd

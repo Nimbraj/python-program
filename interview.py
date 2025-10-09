@@ -892,10 +892,10 @@ class VideoLecture:
 # Polymorphism → Implement display_info() and borrow() differently in each subclass.
 #
 #
-# 👉 How would you design the classes so the system can handle multiple item types with the same interface?
+# How would you design the classes so the system can handle multiple item types with the same interface?
 #
 #
-# 🔹 Question 2: Vehicle Rental System
+# Question 2: Vehicle Rental System
 #
 # Design a VehicleRental system with these features:
 #

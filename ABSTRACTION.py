@@ -133,6 +133,46 @@ D.mock_taken_by("xyz","python")
 # a.deposit(5000)
 # a.withdrawal(2500)
 #
+
+
+
+
+
+
+# from abc import ABC,abstractmethod
+#
+# class Bank(ABC):
+#     @abstractmethod
+#     def information(self,name,address):
+#         print('Bye')
+#
+# class ICIC(Bank):
+#     def information(self,name,address,Account_number):
+#         super().information(name,address)
+#         print(f"the one preson details is   {name} and address   {address} this is a Account number   {Account_number}")
+# obj=ICIC()
+# obj.information("mayur","pune","ICIC1236432")
 #
 #
 #
+#
+#
+
+
+class Method:
+    def __int__(self ,name,number):
+        self._n=name
+        self.num=number
+    def getter(self):
+        return self._n ,self.num
+    def setter(self, name,number):
+        self.num=number
+        self._n=name
+
+    def deletter(self):
+        del self.num ,self._n
+obj=Method()
+obj.setter("mayur",123)
+print(obj.getter())
+
+

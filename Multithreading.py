@@ -1,6 +1,7 @@
 # multiTasking :- Executing several task at  the same time is called as multitasking
 # Process based multitasking :-Executing  several task simulataneously at the same time where each every task having their own independent process is called as process based multitasking.
         ##### process based is more effiently used in the operating system  based application
+import time
 from tokenize import endpats
 
 # thread based  multitasking  :- Executing  several task simulataneously at
@@ -22,7 +23,7 @@ sr="([{}])"
 import threading
 from threading import current_thread
 
-print(threading.current_thread().name)
+# print(threading.current_thread().name)
 
 # set name :- this changes a thread name
 # current_thread().setName("jagtap Nimbraj")
@@ -76,3 +77,57 @@ print(threading.current_thread().name)
 #
 # end=time.time()
 # print("total time taken to execute the program :",end-start)
+#
+#
+# st = "([{}])"
+# d = {')': "(", '}': "{", ']': "["}
+# #
+# def checking(st):
+#     stack = []
+#     for char in st:
+#         if char in d.values():  # opening brackets
+#             stack.append(char)
+#         elif char in d:  # closing brackets
+#             if not stack or stack[-1] != d[char]:
+#                 return False
+#             stack.pop()
+#         else:
+#             return False  # invalid character
+#     return len(stack) == 0
+#
+# result = checking(st)
+#
+# if result:
+#     print(f"{st} is balanced")
+# else:
+#     print(f"{st} is not balanced")
+#
+
+
+
+#
+#
+# # python  multitaking
+# from threading import *
+# from time import sleep
+#
+# class Hello(Thread):
+#     def run(self):
+#         sleep(5)
+#         for i in range(5):
+#            print("Hello")
+#
+# class Hii(Thread):
+#     # sleep(5)
+#     def run(self):
+#         sleep(5)
+#         for i in range(5):
+#             print("hi")
+#
+#
+# t1=Hello()
+# t2=Hii()
+#
+# t2.start()
+# sleep(1)
+# t1.start()

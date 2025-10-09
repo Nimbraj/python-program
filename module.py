@@ -9,7 +9,8 @@
 #     s=0
 #     res =n
 #     for i in range(n):
-#         digit=n%10
+#         digit=n%
+#         10
 #         s=s*digit+10
 #         digit//=10
 #     if res == n:
